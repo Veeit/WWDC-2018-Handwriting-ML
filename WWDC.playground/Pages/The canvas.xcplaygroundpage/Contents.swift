@@ -3,6 +3,8 @@
  
 I hope you understand the code, most of it is self explaining,
  but I added some commets to help you.
+ 
+ this page is in swift 4 buggy sorry I need to fix this later :D 
  */
 
 
@@ -128,7 +130,7 @@ extension UIView {
             view.translatesAutoresizingMaskIntoConstraints = false
         }
         
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutConstraint.FormatOptions(), metrics: nil, views: viewsDictionary))
     }
 }
 
